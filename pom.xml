@@ -24,11 +24,7 @@
             <artifactId>webcontroller</artifactId>
             <version>1.0</version>
         </dependency>
-        <dependency>
-            <groupId>it.solutionsexmachina</groupId>
-            <artifactId>genericdao</artifactId>
-            <version>1.0</version>
-        </dependency>
+        
     </dependencies>
 
 
@@ -66,10 +62,7 @@
                     <Xlint>ignore</Xlint>
                     <complianceLevel>1.8</complianceLevel>
                     <weaveDependencies>
-                        <weaveDependency>
-                            <groupId>it.solutionsexmachina</groupId>
-                            <artifactId>genericdao</artifactId>
-                        </weaveDependency>
+                       
                         <weaveDependency>
                             <groupId>it.solutionsexmachina</groupId>
                             <artifactId>webcontroller</artifactId>
